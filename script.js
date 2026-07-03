@@ -39,7 +39,7 @@ const translations = {
     "exp.item3.desc": "Aplicações mobile multiplataforma com React Native e Expo, integração de APIs REST via Axios e aplicação de Clean Architecture — com ganho de aproximadamente 50% na agilidade de resposta.",
 
     "projects.eyebrow": "> projetos",
-    "projects.title": "Coisas que eu construí",
+    "projects.title": "Projetos que eu construí",
     "projects.cta": "Ver repositório",
     "projects.p1.title": "BoardGame Vault",
     "projects.p1.desc": "Aplicação fullstack para colecionadores de jogos de tabuleiro: dashboard com estatísticas, autenticação via JWT e gestão completa (CRUD) da ludoteca pessoal, com interface dark e glassmorphism.",
@@ -104,7 +104,7 @@ const translations = {
     "exp.item3.desc": "Cross-platform mobile applications with React Native and Expo, REST API integration via Axios, and Clean Architecture — improving response agility by roughly 50%.",
 
     "projects.eyebrow": "> projects",
-    "projects.title": "Things I've built",
+    "projects.title": "Projects I've built",
     "projects.cta": "View repository",
     "projects.p1.title": "BoardGame Vault",
     "projects.p1.desc": "Full-stack application for board game collectors: stats dashboard, JWT authentication and complete CRUD management of a personal game library, with a dark, glassmorphism interface.",
@@ -174,13 +174,7 @@ navLinks.querySelectorAll("a").forEach((link) => {
 
 document.getElementById("year").textContent = new Date().getFullYear();
 
-// ============================================
-// SCROLL REVEAL
-// ============================================
-// Elementos com a classe .reveal aparecem (fade + translateY) quando
-// entram na viewport. Dentro de um .stagger-group (grids de projetos,
-// skills, timeline, contato), cada item recebe um atraso incremental
-// via a custom property --i, criando o efeito de sequência.
+// Scroll Reveal 
 
 document.querySelectorAll(".stagger-group").forEach((group) => {
   group.querySelectorAll(".reveal").forEach((el, i) => {
