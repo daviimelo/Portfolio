@@ -1,0 +1,203 @@
+const translations = {
+  pt: {
+    "nav.about": "Sobre",
+    "nav.experience": "Experiência",
+    "nav.projects": "Projetos",
+    "nav.skills": "Skills",
+    "nav.contact": "Contato",
+
+    "hero.eyebrow": "// olá, eu sou",
+    "hero.role": "Desenvolvedor Mobile & Software",
+    "hero.intro": "Estudante de Análise e Desenvolvimento de Sistemas no IFPB, construindo aplicações mobile e web do design ao deploy — com Java, React Native e boas práticas de arquitetura.",
+    "hero.cta1": "Ver projetos",
+    "hero.cta2": "Falar comigo",
+
+    "about.eyebrow": "// sobre",
+    "about.title": "Quem escreve este código",
+    "about.text": "Tenho 18 anos, sou de João Pessoa (PB) e curso Análise e Desenvolvimento de Sistemas no IFPB Campus Santa Rita. Dedico boa parte dos meus estudos ao ecossistema Java, mas transito bem por Python, desenvolvimento web e mobile com React Native. Atuo em projetos de extensão e inovação com metodologias ágeis, e gosto de entender o que está por trás do código: arquitetura limpa, princípios SOLID e software que envelhece bem.",
+    "about.fact1.label": "Localização",
+    "about.fact1.value": "João Pessoa, PB — Brasil",
+    "about.fact2.label": "Formação",
+    "about.fact2.value": "ADS — IFPB Campus Santa Rita (2025–2027)",
+    "about.fact3.label": "Foco atual",
+    "about.fact4.label": "Idiomas",
+    "about.fact4.value": "Português (nativo) · Inglês (intermediário)",
+
+    "exp.eyebrow": "$ experiência",
+    "exp.title": "Onde venho aplicando o que aprendo",
+    "exp.item1.date": "Abr 2026 — Presente",
+    "exp.item1.role": "Desenvolvedor de Software",
+    "exp.item1.place": "IFPB — Projeto AVIN · Remoto",
+    "exp.item1.desc": "Desenvolvimento e manutenção de plataforma web para modernizar a gestão de dados de autoavaliação institucional, integrando BI e visualizações interativas.",
+    "exp.item2.date": "Mar 2026 — Jun 2026",
+    "exp.item2.role": "Monitor de Programação Orientada a Objetos",
+    "exp.item2.place": "IFPB",
+    "exp.item2.desc": "Apoio didático a estudantes nos fundamentos de POO em Java — classes, herança, polimorfismo e encapsulamento — e revisão de exercícios de lógica de programação.",
+    "exp.item3.date": "Mar 2025 — Fev 2026",
+    "exp.item3.role": "Desenvolvedor Mobile",
+    "exp.item3.place": "IFPB Polo de Inovação",
+    "exp.item3.desc": "Aplicações mobile multiplataforma com React Native e Expo, integração de APIs REST via Axios e aplicação de Clean Architecture — com ganho de aproximadamente 50% na agilidade de resposta.",
+
+    "projects.eyebrow": "> projetos",
+    "projects.title": "Coisas que eu construí",
+    "projects.cta": "Ver repositório",
+    "projects.p1.title": "BoardGame Vault",
+    "projects.p1.desc": "Aplicação fullstack para colecionadores de jogos de tabuleiro: dashboard com estatísticas, autenticação via JWT e gestão completa (CRUD) da ludoteca pessoal, com interface dark e glassmorphism.",
+    "projects.p2.title": "Tasks",
+    "projects.p2.desc": "App de gestão de tarefas com frontend mobile e API própria — cadastro, edição e sincronização de tarefas com persistência em PostgreSQL.",
+    "projects.p3.title": "Sistema de Gestão de Monitoria",
+    "projects.p3.badge": "Melhor projeto — POO, IFPB 2025.2",
+    "projects.p3.desc": "Sistema desktop que automatiza os Editais de Monitoria do IFPB: cadastro de editais, inscrição de alunos e ranqueamento automático por CRE e média, com exportação de relatórios em PDF.",
+
+    "skills.eyebrow": "# skills",
+    "skills.title": "Ferramentas do dia a dia",
+    "skills.g1": "Mobile",
+    "skills.g2": "Web & Backend",
+    "skills.g3": "Banco de dados",
+    "skills.g4": "Arquitetura & Boas práticas",
+    "skills.g5": "Ferramentas",
+
+    "contact.eyebrow": "@ contato",
+    "contact.title": "Vamos conversar?",
+    "contact.text": "Estou buscando novas oportunidades na área. Se você tem um projeto, uma vaga ou só quer trocar uma ideia sobre Java e React Native, me chama.",
+
+    "footer.note": "Feito com HTML, CSS e JS — sem frameworks."
+  },
+
+  en: {
+    "nav.about": "About",
+    "nav.experience": "Experience",
+    "nav.projects": "Projects",
+    "nav.skills": "Skills",
+    "nav.contact": "Contact",
+
+    "hero.eyebrow": "// hi, i'm",
+    "hero.role": "Mobile & Software Developer",
+    "hero.intro": "Computer Systems Analysis and Development student at IFPB, building mobile and web applications from design to deploy — with Java, React Native and solid architecture practices.",
+    "hero.cta1": "View projects",
+    "hero.cta2": "Get in touch",
+
+    "about.eyebrow": "// about",
+    "about.title": "Who's behind this code",
+    "about.text": "I'm 18 years old, from João Pessoa (PB, Brazil), studying Computer Systems Analysis and Development at IFPB Campus Santa Rita. I spend most of my study time on the Java ecosystem, but I'm also comfortable with Python, web development and mobile development with React Native. I work on extension and innovation projects using agile methodologies, and I care about what's under the hood: clean architecture, SOLID principles, and software that ages well.",
+    "about.fact1.label": "Location",
+    "about.fact1.value": "João Pessoa, PB — Brazil",
+    "about.fact2.label": "Education",
+    "about.fact2.value": "CS Analysis & Development — IFPB Campus Santa Rita (2025–2027)",
+    "about.fact3.label": "Current focus",
+    "about.fact4.label": "Languages",
+    "about.fact4.value": "Portuguese (native) · English (intermediate)",
+
+    "exp.eyebrow": "$ experience",
+    "exp.title": "Where I've been putting it into practice",
+    "exp.item1.date": "Apr 2026 — Present",
+    "exp.item1.role": "Software Developer",
+    "exp.item1.place": "IFPB — AVIN Project · Remote",
+    "exp.item1.desc": "Development and maintenance of a web platform to modernize institutional self-assessment data management, integrating BI and interactive visualizations.",
+    "exp.item2.date": "Mar 2026 — Jun 2026",
+    "exp.item2.role": "Object-Oriented Programming Teaching Assistant",
+    "exp.item2.place": "IFPB",
+    "exp.item2.desc": "Supported students on OOP fundamentals in Java — classes, inheritance, polymorphism and encapsulation — and reviewed programming logic exercises.",
+    "exp.item3.date": "Mar 2025 — Feb 2026",
+    "exp.item3.role": "Mobile Developer",
+    "exp.item3.place": "IFPB Innovation Hub",
+    "exp.item3.desc": "Cross-platform mobile applications with React Native and Expo, REST API integration via Axios, and Clean Architecture — improving response agility by roughly 50%.",
+
+    "projects.eyebrow": "> projects",
+    "projects.title": "Things I've built",
+    "projects.cta": "View repository",
+    "projects.p1.title": "BoardGame Vault",
+    "projects.p1.desc": "Full-stack application for board game collectors: stats dashboard, JWT authentication and complete CRUD management of a personal game library, with a dark, glassmorphism interface.",
+    "projects.p2.title": "Tasks",
+    "projects.p2.desc": "Task management app with a mobile frontend and its own API — creating, editing and syncing tasks with PostgreSQL persistence.",
+    "projects.p3.title": "Monitoring Management System",
+    "projects.p3.badge": "Best project — OOP, IFPB 2025.2",
+    "projects.p3.desc": "Desktop system that automates IFPB's Teaching Assistant selection process: application registration, student sign-up and automatic ranking by CRE and GPA, with PDF report export.",
+
+    "skills.eyebrow": "# skills",
+    "skills.title": "Everyday tools",
+    "skills.g1": "Mobile",
+    "skills.g2": "Web & Backend",
+    "skills.g3": "Databases",
+    "skills.g4": "Architecture & Best Practices",
+    "skills.g5": "Tools",
+
+    "contact.eyebrow": "@ contact",
+    "contact.title": "Let's talk?",
+    "contact.text": "I'm looking for new opportunities in the field. If you have a project, an opening, or just want to talk about Java and React Native, reach out.",
+
+    "footer.note": "Built with HTML, CSS and JS — no frameworks."
+  }
+};
+
+// Toggle de Linguagem
+
+const STORAGE_KEY = "portfolio-lang";
+let currentLang = localStorage.getItem(STORAGE_KEY) || "pt";
+
+function applyLanguage(lang) {
+  const dict = translations[lang];
+  document.querySelectorAll("[data-i18n]").forEach((el) => {
+    const key = el.getAttribute("data-i18n");
+    if (dict[key]) el.textContent = dict[key];
+  });
+  document.documentElement.setAttribute("lang", lang === "pt" ? "pt-BR" : "en");
+  document.getElementById("langValue").textContent = lang;
+  localStorage.setItem(STORAGE_KEY, lang);
+  currentLang = lang;
+}
+
+document.getElementById("langToggle").addEventListener("click", () => {
+  applyLanguage(currentLang === "pt" ? "en" : "pt");
+});
+
+applyLanguage(currentLang);
+
+// Nav do Mobile
+
+const navBurger = document.getElementById("navBurger");
+const navLinks = document.getElementById("navLinks");
+
+navBurger.addEventListener("click", () => {
+  const isOpen = navLinks.classList.toggle("open");
+  navBurger.setAttribute("aria-expanded", isOpen);
+});
+
+navLinks.querySelectorAll("a").forEach((link) => {
+  link.addEventListener("click", () => {
+    navLinks.classList.remove("open");
+    navBurger.setAttribute("aria-expanded", "false");
+  });
+});
+
+// Ano Rodapé
+
+document.getElementById("year").textContent = new Date().getFullYear();
+
+// ============================================
+// SCROLL REVEAL
+// ============================================
+// Elementos com a classe .reveal aparecem (fade + translateY) quando
+// entram na viewport. Dentro de um .stagger-group (grids de projetos,
+// skills, timeline, contato), cada item recebe um atraso incremental
+// via a custom property --i, criando o efeito de sequência.
+
+document.querySelectorAll(".stagger-group").forEach((group) => {
+  group.querySelectorAll(".reveal").forEach((el, i) => {
+    el.style.setProperty("--i", i);
+  });
+});
+
+const revealObserver = new IntersectionObserver(
+  (entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("is-visible");
+        revealObserver.unobserve(entry.target);
+      }
+    });
+  },
+  { threshold: 0.15, rootMargin: "0px 0px -60px 0px" }
+);
+
+document.querySelectorAll(".reveal").forEach((el) => revealObserver.observe(el));
